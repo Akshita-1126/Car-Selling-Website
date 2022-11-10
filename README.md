@@ -1,11 +1,11 @@
 # Car-Selling-Website
-## This a interactive car selling website
+## This is an interactive car selling website
 ### Website made by using:
 * Html
 * Css
-* Bootstrap
+* Python
 * JavaScript
-* React
+* MySQL
 
 ### About Website:
 * you can purchase car
