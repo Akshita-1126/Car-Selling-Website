@@ -17,26 +17,25 @@
 <body>
     
 <header class="header">
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
 
-    <div id="menu-btn" class="fas fa-bars"></div>
+      <a href="#" class="logo"> <span>max</span>wheels </a>
 
-    <a href="#" class="logo"> <span>max</span>wheels </a>
-
-    <nav class="navbar">
+      <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">✖</button>
         <a href="#home">home</a>
         <a href="#vehicles">vehicles</a>
         <a href="#services">services</a>
         <a href="#featured">featured</a>
         <a href="#reviews">reviews</a>
         <a href="#contact">contact</a>
-    </nav>
-
-    <div id="login-btn">
+      </div>
+      <script src="script.js"></script>
+      <div id="login-btn">
         <button class="btn">login</button>
         <i class="far fa-user"></i>
-    </div>
-
-</header> 
+      </div>
+    </header>
     
 <div class="login-form-container">
 
@@ -623,3 +622,4 @@
 </body>
 
 </html>
+
