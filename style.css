@@ -142,7 +142,7 @@ section {
   font-size: 25px;
   background: none;
   border: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.279);
   cursor: pointer;
 }
 /* Menu Links */
@@ -154,7 +154,7 @@ section {
 }
 
 .sidebar a:hover {
-  background: #575757;
+  background: #ead309;
 }
 
 /* Active State */
