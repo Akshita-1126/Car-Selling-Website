@@ -1,8 +1,9 @@
+console.log("JS connected");
+
 // SIDEBAR MENU TOGGLE
 function toggleMenu() {
   document.getElementById("sidebar").classList.toggle("active");
 }
-
 
 // LOGIN FORM
 let loginBtn = document.querySelector('#login-btn');
@@ -38,29 +39,28 @@ window.onscroll = () => {
 
 // SWIPER VEHICLES SLIDER
 var swiper = new Swiper(".vehicles-slider", {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop: true,
   grabCursor: true,
   centeredSlides: true,
-  spaceBetween: 20,
-  loop:true,
-  autoplay:{
-    delay: 9500,
-    disableOnInteraction:false,
+
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false,
   },
+
   pagination: {
     el: ".swiper-pagination",
-    clickable:true,
+    clickable: true,
   },
+
   breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    991: {
-      slidesPerView: 3,
-    },
-  },
+    0: { slidesPerView: 1 },
+    768: { slidesPerView: 2 },
+    991: { slidesPerView: 3 }
+  }
+
 });
 
 

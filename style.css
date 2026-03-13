@@ -315,9 +315,10 @@ section {
 
 .vehicles .vehicles-slider {
   padding-bottom: 5rem;
+  overflow: hidden;
 }
 
-.vehicles .vehicles-slider .box {
+.vehicles .vehicles-slider .box{
   text-align: center;
 }
 
@@ -329,7 +330,7 @@ section {
 
 .vehicles .vehicles-slider .box .content {
   padding-top: 1rem;
-  transform: scale(0);
+  transform: scale(1);
 }
 
 .vehicles .vehicles-slider .swiper-slide-active .content {

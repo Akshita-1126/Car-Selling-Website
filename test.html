@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<style>
+.swiper{
+width:600px;
+height:300px;
+}
+.swiper-slide{
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+background:lightblue;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="swiper vehicles-slider">
+<div class="swiper-wrapper">
+<div class="swiper-slide">Car 1</div>
+<div class="swiper-slide">Car 2</div>
+<div class="swiper-slide">Car 3</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+
+new Swiper(".vehicles-slider", {
+loop:true,
+autoplay:{delay:2000}
+});
+
+</script>
+
+</body>
+</html>
